@@ -31,7 +31,7 @@ twitter_username: ""
 github_username:  raesuarez
 
 # Build settings
-theme: minima
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 #  - jekyll-remote-theme
