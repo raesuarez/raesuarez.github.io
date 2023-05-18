@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: "Rachel Suarez's Portfolio [UNDER CONSTRUCTION]"
 ---
 
