@@ -1,7 +1,14 @@
 ---
-layout: home
+layout: page
+title: "Rachel Suarez's Portfolio [UNDER CONSTRUCTION]"
 ---
 
-Welcome to my page! 
+insert image of self somewhere
 
-Testing  1 12 3
+Hello! My name is Rachel Suarez
+class of 2025
+cs major
+interested in xyz
+looking for summer 2024 internship in abc
+
+browse different pages to find different examples of my work (yay)
