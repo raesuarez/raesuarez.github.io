@@ -19,9 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Rachel Suarez Portfolio
-author:
-   - name: Rachel Suarez
-   - email: rs112@wellesley.edu
+email: rs112@wellesley.edu
 description: >- # this means to ignore newlines until "baseurl:"
   A rising junior studying Computer Science at Wellesley College
   with a passion for video game development.
