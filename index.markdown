@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Rachel Suarez's Portfolio [UNDER CONSTRUCTION]"
 ---
+# Rachel Suarez's Portfolio [UNDER CONSTRUCTION]
 
 insert image of self somewhere
 
