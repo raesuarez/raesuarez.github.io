@@ -1,7 +1,9 @@
 ---
 layout: home
 ---
-# Rachel Suarez's Portfolio [UNDER CONSTRUCTION]
+test
+
+## Rachel Suarez's Portfolio [UNDER CONSTRUCTION]
 
 insert image of self somewhere
 
