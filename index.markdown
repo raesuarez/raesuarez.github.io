@@ -2,7 +2,7 @@
 layout: home
 ---
 ''
-#My portfolio!
+# My portfolio! [under construction]
 
 insert image of self somewhere
 
