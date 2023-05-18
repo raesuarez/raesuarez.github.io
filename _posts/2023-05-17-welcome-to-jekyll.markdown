@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Welcome to my page!"
-date:   2023-05-17 18:16:59 -0400
 categories: main
 ---
 
