@@ -2,8 +2,7 @@
 layout: home
 ---
 ''
-
-## Rachel Suarez's Portfolio [UNDER CONSTRUCTION]
+#My portfolio!
 
 insert image of self somewhere
 
