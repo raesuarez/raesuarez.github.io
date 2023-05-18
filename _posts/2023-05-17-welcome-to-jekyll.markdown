@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to my page!"
 date:   2023-05-17 18:16:59 -0400
-categories: jekyll update
+categories: main
 ---
 
 Testing website creation. Not really sure how to do this.
