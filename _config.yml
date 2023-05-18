@@ -18,24 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Rachel Suarez
-email: rs112@wellesley.edu
+title: Projects, Projects, Projects
+author: 
+  name: Rachel Suarez
+  email: rs112@wellesley.edu
 description: >- # this means to ignore newlines until "baseurl:"
   A rising junior studying Computer Science at Wellesley College
   with a passion for video game development. Here you will be
   able to find my past projects that showcase the skills I
   have gained at Wellesley and beyond!
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://raesuarez.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "http://raesuarez.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: ""
-github_username:  raesuarez
+#github_username:  raesuarez
 
 # Build settings
-theme: jekyll-theme-tactile
-#remote_theme: pages-themes/tactile@v0.2.0
+#theme: jekyll-theme-tactile
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
-#  - jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
