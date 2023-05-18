@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-test
+''
 
 ## Rachel Suarez's Portfolio [UNDER CONSTRUCTION]
 
