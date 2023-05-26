@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: home
 ---
 
 # Welcome to my portfolio!
