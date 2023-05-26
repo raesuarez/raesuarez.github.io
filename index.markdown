@@ -1,8 +1,8 @@
 ---
-layout: home
+layout: base
 ---
-''
-# My portfolio!
+
+# Welcome to my portfolio!
 
 Hello all! My name is Rachel Suarez and welcome to my website! I am a rising junior at Wellesley College studying Computer Science. I am mainly interested in video game development and computer networks. I have experience in video game design and research, as well as beginner skills in software engineering. 
 
