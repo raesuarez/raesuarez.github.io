@@ -8,12 +8,16 @@ permalink: /resume/
  
 # Wellesley College
 2021 - 2025
+
 GPA: 3.08/4
+
 Classes taken: Data Structures and Intro to Algorithms (Java), Fundamental Algorithms (Python), Intro to Game Design (Unity 2D, C#), Digital Worlds for Gaming (Unity3D, C#), Foundations of Computer Systems, Computer Networks, Physics I & II
 
 # Massachusetts Institute of Technology
 Fall 2023
+
 GPA: N/A
+
 Classes taken: Linear Algebra and Optimization
 
 ## Work Experience
@@ -47,17 +51,16 @@ Sophomore Early Research Program (2022-2023): Selected as one of 20 students in 
 ## Leadership Experience
 
 # Game Development Club @ Wellesley College
-President
-May 2023 - May 2024
+President (May 2023 - May 2024)
 - Leading executive board meetings and organizing events and demonstrations for our members
 - Organizing the first Wellesley Game Jam
-Publicity Chair
-May 2022 - May 2023
+
+
+Publicity Chair (May 2022 - May 2023)
 - Leading demonstrations, creating flyers for our events, and sending emails to our members
 
 # Sexual Assault Awareness for Everyone @ Wellesley College
-Publicity Chair
-May 2022 - May 2023
+Publicity Chair (May 2022 - May 2023)
 - Created flyers and infographics to promote healthy relationship practices on campus
 
 ## Involvement
