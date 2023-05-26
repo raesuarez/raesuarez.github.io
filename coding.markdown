@@ -5,7 +5,7 @@ permalink: /coding/
 ---
 Below you will find code snippets from my previous projects organized by language!
 
-### Python
+##f Python
 
 # Decode string 
 {% highlight python %}
@@ -51,7 +51,7 @@ def createDict():
     return acsEq
 {% endhighlight %}
 
-### Java
+## Java
 
 # File reading/writing and data processing
 {% highlight java %}
@@ -219,7 +219,7 @@ public class BoundedQueue<T> extends CircularArrayQueue<T>
 }
 {% endhighlight %}
 
-### C#    
+## C#    
 
 {% highlight c# %}
 
