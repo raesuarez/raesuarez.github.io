@@ -11,7 +11,7 @@ permalink: /resume/
 
 GPA: 3.08/4
 
-Classes taken: Data Structures and Intro to Algorithms (Java), Fundamental Algorithms (Python), Intro to Game Design (Unity 2D, C#), Digital Worlds for Gaming (Unity3D, C#), Foundations of Computer Systems, Computer Networks, Physics I & II
+Classes taken: Data Structures and Intro to Algorithms (Java), Fundamental Algorithms (Python), Intro to Game Design (Unity 2D, C#), Digital Worlds for Gaming (Unity 3D, C#), Foundations of Computer Systems, Computer Networks, Physics I & II
 
 # Massachusetts Institute of Technology
 Fall 2023
@@ -68,6 +68,7 @@ May 2022 - May 2023
 
 # Sexual Assault Awareness for Everyone @ Wellesley College
 Publicity Chair 
+
 May 2022 - May 2023
 - Created flyers and infographics to promote healthy relationship practices on campus
 
