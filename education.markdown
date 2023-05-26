@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Education and Work Experience
+title: Resume
 permalink: /Resume/
 ---
  
