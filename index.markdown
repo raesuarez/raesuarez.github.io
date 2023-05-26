@@ -2,14 +2,12 @@
 layout: home
 ---
 ''
-# My portfolio! [under construction]
+# My portfolio!
 
-insert image of self somewhere
+Hello all! My name is Rachel Suarez and welcome to my website! I am a rising junior at Wellesley College studying Computer Science. I am mainly interested in video game development and computer networks. I have experience in video game design and research, as well as beginner skills in software engineering. 
 
-Hello! My name is Rachel Suarez
-class of 2025
-cs major
-interested in xyz
-looking for summer 2024 internship in abc
+Currently, I am doing research at Carnegie Mellon University through the Research Experience for Undergraduates in Software Engineering (REUSE) program, studying the sustainability of open source communities. I am also a participant in the IBM Accelerate program under the Software Engineering track. 
 
-browse different pages to find different examples of my work (yay)
+I am looking for internships and opportunities in Game Development and Software Engineering (as well as related fields) for Summer 2024. 
+
+Please feel free to browse the rest of my website to find my previous projects. Thank you for visiting my site and I hope to hear from you soon!
