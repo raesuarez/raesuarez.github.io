@@ -5,7 +5,7 @@ permalink: /coding/
 ---
 
 test snippet
-{% highlight ruby %}
+{% highlight python %}
 def test:
   print("Hello World!")
 {% endhighlight %}
