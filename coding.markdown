@@ -1,7 +1,7 @@
 ---
 layout: page
-title: coding
-permalink: /coding/
+title: Coding
+permalink: /Coding/
 ---
 Below you will find code snippets from my previous projects organized by language (Python, Java, and C#)!
 
