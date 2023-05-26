@@ -1,7 +1,9 @@
 ---
 layout: page
-title: games
-permalink: /games/
+title: Games
+permalink: /Games/
 ---
 
-add games here somehow (literally how am i gonna do that)
+Please head to https://raesuarez.itch.io/ to play some of my games!
+
+This page is currently under construction as I do not have access to the files needed to fully upload all of my games.
