@@ -3,7 +3,9 @@ layout: page
 title: coding
 permalink: /coding/
 ---
-Below you will find code snippets from my previous projects organized by language!
+Below you will find code snippets from my previous projects organized by language (Python, Java, and C#)!
+
+I also have experience working with Javascript, React, MATLAB, Windows CMD, Git, and Unity Game Engine. 
 
 ## Python
 
