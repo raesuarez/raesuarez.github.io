@@ -3,10 +3,11 @@ layout: page
 title: coding
 permalink: /coding/
 ---
+Below you will find code snippets from my previous projects organized by language!
 
-## Python
+### Python
 
-Decode string 
+# Decode string 
 {% highlight python %}
 def decode(encoded):
     digits = reverse(encoded)
@@ -50,9 +51,113 @@ def createDict():
     return acsEq
 {% endhighlight %}
 
-## Java
+### Java
 
-Bounded queue implementation
+# File reading/writing and data processing
+{% highlight java %}
+public class Evictions
+{
+    private Town[] towns;
+    private double threshold;
+    private File inFileName;
+    private int CAPACITY = 50;
+
+    public Evictions(File f){
+        inFileName = f;
+    }
+
+    /**
+     * helper method to increase array size
+     */    
+    private void increaseSize(){
+        Town[] temp = new Town[towns.length * 2];
+        for (int t = 0; t < towns.length; t++){
+            temp[t] = towns[t];
+        }
+        towns = temp;
+    }
+
+    /**
+     * reads town data from a txt file and sorts into towns array
+     * @param f input file to read data from
+     */
+    public void readFromFile(File f){
+        Town[] towns = new Town[CAPACITY];
+        int counter = 0;
+        try{
+            Scanner scan = new Scanner(f); 
+            scan.nextLine(); //skips first line with no data
+            int index = 0;
+            scan.useDelimiter("\t|\\n"); //Separates the elements on each String
+
+            while (scan.hasNext()) {
+                if (counter == towns.length){
+                    increaseSize();
+                }
+                String name = scan.next(); //assigns each element to a parameter in the Town constructor
+                String state = scan.next();
+                int pop = scan.nextInt();
+                double povRate = scan.nextDouble();
+                int evictions = scan.nextInt();
+                Town t = new Town(name, state, pop, povRate, evictions);
+                towns[index] = t;
+                index++;
+            }
+            scan.close();
+        }
+        catch (FileNotFoundException e){
+            System.out.println(e);
+        }
+        this.towns = towns;
+    }
+
+    /**
+     * filters towns according to threshold and writes to a new txt file
+     * every town with an eviction rate greater than the threshold
+     * @param o name of the output file
+     */
+    public void filterAndWriteToFile(String o){
+        threshold = 0.3;
+
+        try{
+            PrintWriter writer = new PrintWriter (new File(o));
+            for (int i = 0; i < towns.length; i++){
+
+                if(towns[i] != null){ //if town[i] is not empty and it passes the threshold
+                    boolean flag = towns[i].setFlag(threshold);
+                    if (flag){
+                        writer.println(towns[i]);
+                    }
+                }
+            }
+            writer.close();
+        }
+        catch (IOException e){
+            System.out.println(e);
+        }
+    }
+
+    public static void main(String[] args){
+        //instantiates file to be read
+        File f = new File("smallEvictionData.txt");
+        //creates Eviction object
+        Evictions e = new Evictions(f);
+        System.out.println("Testing readFromFile");
+        e.readFromFile(f);
+        System.out.println("First town:");
+        System.out.println(e.towns[0]);
+        System.out.println("Second town:");
+        System.out.println(e.towns[1]);
+        System.out.println("Third town:");
+        System.out.println(e.towns[2]);
+        
+        //testing filter and write to file
+        e.filterAndWriteToFile("Evictions.txt");
+    }
+}
+{% endhighlight %}
+
+# Bounded queue implementation
 {% highlight java %}
 public class BoundedQueue<T> extends CircularArrayQueue<T>
 {
@@ -114,7 +219,8 @@ public class BoundedQueue<T> extends CircularArrayQueue<T>
 }
 {% endhighlight %}
 
-## C#
+### C#    
+
 {% highlight c# %}
 
 {% endhighlight %}
