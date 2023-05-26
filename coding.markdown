@@ -4,4 +4,10 @@ title: coding
 permalink: /coding/
 ---
 
-page for my coding stuff and coding examples organized by language??
+test snippet
+{% highlight ruby %}
+def test:
+  print("Hello World!")
+{% endhighlight %}
+
+test end
