@@ -24,17 +24,20 @@ Classes taken: Linear Algebra and Optimization
 
 # Undergraduate Research Assistant
 Research Experience for Undergraduates in Software Engineering (REUSE) @ Carnegie Mellon University
+
 May 2023 - Aug 2023
 - Studying open source community sustainability
 - Creating programs to find abandoned dependencies and understand how they affect users
 
 Wellesley Sophomore Early Research Program @ Wellesley College
+
 Sept 2022 - May 2023
 - Collected video game data and transcribed videos into exploration graphs
 - Coded programs (Python) using the exploration library to analyze the data collected
 
 # Student Technician and Videographer
 Library and Technology Services @ Wellesley College
+
 Sept 2021 - present
 - Provide video and audio support for events across campus using Crestron systems to eliminate technical difficulties throughout the event
 - Film high profile events on campus using DLSR cameras that are edited and shared with the college community
@@ -51,16 +54,21 @@ Sophomore Early Research Program (2022-2023): Selected as one of 20 students in 
 ## Leadership Experience
 
 # Game Development Club @ Wellesley College
-President (May 2023 - May 2024)
+President
+
+May 2023 - May 2024
 - Leading executive board meetings and organizing events and demonstrations for our members
 - Organizing the first Wellesley Game Jam
 
 
-Publicity Chair (May 2022 - May 2023)
+Publicity Chair
+
+May 2022 - May 2023
 - Leading demonstrations, creating flyers for our events, and sending emails to our members
 
 # Sexual Assault Awareness for Everyone @ Wellesley College
-Publicity Chair (May 2022 - May 2023)
+Publicity Chair 
+May 2022 - May 2023
 - Created flyers and infographics to promote healthy relationship practices on campus
 
 ## Involvement
