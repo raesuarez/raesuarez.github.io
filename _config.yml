@@ -59,4 +59,4 @@ header_pages:
    - resume.md
    - games.md
    - games.html
- show_excerpts: true
+ show_excerpts: false
