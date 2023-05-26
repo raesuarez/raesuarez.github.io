@@ -5,7 +5,7 @@ permalink: /coding/
 ---
 Below you will find code snippets from my previous projects organized by language!
 
-##f Python
+## Python
 
 # Decode string 
 {% highlight python %}
@@ -219,9 +219,159 @@ public class BoundedQueue<T> extends CircularArrayQueue<T>
 }
 {% endhighlight %}
 
-## C#    
+## C#   
 
-{% highlight c# %}
+# Health system interface scripting
+{% highlight C %}
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Events;
 
+public class HealthSystem : MonoBehaviour
+{
+
+    // initializations
+    public float maxHealth = 60;
+    public float currentHealth;
+    public int hitDamage;
+    public Image healthBar;
+    public UnityEvent ChooseActionsAtEndofHealth;
+    public static bool isDead = false;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        currentHealth = maxHealth;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (currentHealth <= 0)
+        {
+            ChooseActionsAtEndofHealth.Invoke();
+            isDead = true;
+            currentHealth = maxHealth;
+        }
+
+        // health cannot go over maxHealth
+        if (currentHealth > maxHealth)
+        {
+            float healthOver = currentHealth - maxHealth;
+            currentHealth -= currentHealth - maxHealth;
+        }
+
+        // losing 1 health every 5 seconds
+        if (currentHealth > 0)
+        {
+            currentHealth -= Time.deltaTime / 5;
+            healthBar.fillAmount = currentHealth / maxHealth;
+        }
+    }
+   
+    private  void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "O2Tank")
+        {
+            currentHealth += 5;
+        }
+
+        else if (collision.gameObject.tag == "Bullet")
+        {
+            currentHealth += -5;
+        }
+
+        else if (collision.gameObject.name == "collider 1 (21)")
+        {
+            currentHealth = -1;
+            Debug.Log("death");
+        }
+    }
+   
+    public void setHealth()
+    {
+        currentHealth = 60;
+        isDead = false;
+    }
+}
+{% endhighlight %}
+
+# Cutscene scripting
+{% highlight C %}
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.InputSystem;
+using Cinemachine;
+using StarterAssets;
+
+public class cutsceneTrigger : MonoBehaviour
+{
+    public UnityEvent startCutscene2;
+    public UnityEvent startCutscene3;
+    private bool inTrigger = false;
+    public GameObject letterM;
+    public GameObject letterA;
+    public GameObject letterL;
+    public GameObject letterL2;
+    public GameObject barrierObj;
+    public GameObject alien1;
+    public GameObject alien2;
+    public GameObject music;
+    public GameObject endsound;
+    public GameObject instructions;
+    public GameObject endmessage;
+    public GameObject inventory;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            //startCutscene.Invoke();
+            inTrigger = true;
+            instructions.SetActive(true);
+
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            inTrigger = false;
+            instructions.SetActive(false);
+            
+        }
+    }
+    private void Update()
+    {
+        if (letterM.activeSelf == false && letterA.activeSelf == false && letterL.activeSelf == false && letterL2.activeSelf == false && inTrigger 
+            && Keyboard.current.tKey.wasPressedThisFrame)
+        {
+            startCutscene3.Invoke();
+            StartCoroutine(Disable());
+        }
+        else if (inTrigger && Keyboard.current.tKey.wasPressedThisFrame)
+        {
+            instructions.SetActive(false);
+            startCutscene2.Invoke();
+            
+        }
+    }
+    public IEnumerator Disable()
+    {
+        yield return new WaitForSeconds(5);
+        barrierObj.SetActive(false);
+        alien1.SetActive(false);
+        alien2.SetActive(false);
+        music.SetActive(false);
+        endsound.SetActive(true);
+        endmessage.SetActive(true);
+        inventory.SetActive(false);
+
+    }
+}
 {% endhighlight %}
 
