@@ -43,13 +43,13 @@ Sept 2021 - present
 - Film high profile events on campus using DLSR cameras that are edited and shared with the college community
 
 # Future Work Experiences
-Starting in the fall I will be promoted to Student Manager of the Media Services Student Tech team and will be hired as a Teaching Assistant for CS 121: Intro to Game Design. I have not been formally offered these positions yet, but I am looking forward to receiving more information soon!
+Starting in the fall I will be promoted to Student Manager of the Media Services Student Tech team and will be hired as a Teaching Assistant for CS 121: Intro to Game Design.
 
 ## Awards
 
 Ruhlman Conference (April 2023): Selected to present at Wellesley College's Ruhlman Conference and speak on a panel about my research experience. 
 
-Sophomore Early Research Program (2022-2023): Selected as one of 20 students in the natural sciences to receieve a stipend and perform research under a faculty mentor.
+Sophomore Early Research Program (2022-2023): Selected as one of 20 students in the natural sciences to receive a stipend and perform research under a faculty mentor.
 
 ## Leadership Experience
 
