@@ -9,7 +9,7 @@ permalink: /Resume/
 # Wellesley College
 2021 - 2025
 
-GPA: 3.08/4
+Major GPA: 3.33/4
 
 Classes taken: Data Structures and Intro to Algorithms (Java), Fundamental Algorithms (Python), Intro to Game Design (Unity 2D, C#), Digital Worlds for Gaming (Unity 3D, C#), Foundations of Computer Systems, Computer Networks, Physics I & II
 
