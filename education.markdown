@@ -27,13 +27,13 @@ Research Experience for Undergraduates in Software Engineering (REUSE) @ Carnegi
 
 May 2023 - Aug 2023
 - Studying open source community sustainability
-- Creating programs to find abandoned dependencies and understand how they affect users
+- Creating a tool to determine abandoned dependencies and understand how they affect users
 
 Wellesley Sophomore Early Research Program @ Wellesley College
 
 Sept 2022 - May 2023
 - Collected video game data and transcribed videos into exploration graphs
-- Coded programs (Python) using the exploration library to analyze the data collected
+- Coded analysis programs (Python) using the exploration library to analyze the data collected
 
 # Student Technician and Videographer
 Library and Technology Services @ Wellesley College
@@ -57,14 +57,14 @@ Sophomore Early Research Program (2022-2023): Selected as one of 20 students in 
 President
 
 May 2023 - May 2024
-- Leading executive board meetings and organizing events and demonstrations for our members
-- Organizing the first Wellesley Game Jam
+- Leading weekly executive board meetings and organizing weekly events and demonstrations for 130 members
+- Organizing the first Wellesley Game Jam, a 3 day event in which students compete and create a working game by the end of the weekend
 
 
 Publicity Chair
 
 May 2022 - May 2023
-- Leading demonstrations, creating flyers for our events, and sending emails to our members
+- Leading weekly demonstrations, creating flyers for our events, and sending emails to 130 members
 
 # Sexual Assault Awareness for Everyone @ Wellesley College
 Publicity Chair 
