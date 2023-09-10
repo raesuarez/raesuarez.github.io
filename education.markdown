@@ -11,16 +11,23 @@ permalink: /Resume/
 
 Major GPA: 3.33/4
 
-Classes taken: Data Structures and Intro to Algorithms (Java), Fundamental Algorithms (Python), Intro to Game Design (Unity 2D, C#), Digital Worlds for Gaming (Unity 3D, C#), Foundations of Computer Systems, Computer Networks, Physics I & II
+Classes taken: Data Structures and Intro to Algorithms (Java), Fundamental Algorithms (Python), Intro to Game Design (Unity 2D, C#), Digital Worlds for Gaming (Unity 3D, C#), Foundations of Computer Systems, Physics I & II
 
 # Massachusetts Institute of Technology
 Fall 2023
 
-GPA: N/A
-
 Classes taken: Linear Algebra and Optimization
 
 ## Work Experience
+
+
+# Intro to Game Design Teaching Assistant
+CS Department and PLTC Peer Tutor @ Wellesley College
+
+Aug 2023 - Present
+- Assisting 18 students with technical demonstrations in Unity 2D Game Engine
+- Hosting office hours for 6-10 students twice weekly
+
 
 # Undergraduate Research Assistant
 Research Experience for Undergraduates in Software Engineering (REUSE) @ Carnegie Mellon University
@@ -35,17 +42,18 @@ Sept 2022 - May 2023
 - Collected video game data and transcribed videos into exploration graphs
 - Coded analysis programs (Python) using the exploration library to analyze the data collected
 
-# Student Technician and Videographer
+# Event Support Technician and Videographer
 Library and Technology Services @ Wellesley College
 
 Sept 2021 - present
 - Provide video and audio support for events across campus using Crestron systems to eliminate technical difficulties throughout the event
 - Film high profile events on campus using DLSR cameras that are edited and shared with the college community
 
-# Future Work Experiences
-Starting in the fall I will be promoted to Student Manager of the Media Services Student Tech team and will be hired as a Teaching Assistant for CS 121: Intro to Game Design.
-
 ## Awards
+
+IBM Software Developer Badge (August 2023): Received the IBM Software Developer badge after completing the IBM Accelerate Software Development track.
+
+Amazon Summer Undergraduate Research Experience Fellow (May 2023): Received funding to participate in CMU REUSE and attend a day of programming at Amazon Offices in Pittsburgh, PA.
 
 Ruhlman Conference (April 2023): Selected to present at Wellesley College's Ruhlman Conference and speak on a panel about my research experience. 
 
@@ -65,12 +73,6 @@ Publicity Chair
 
 May 2022 - May 2023
 - Leading weekly demonstrations, creating flyers for our events, and sending emails to 130 members
-
-# Sexual Assault Awareness for Everyone @ Wellesley College
-Publicity Chair 
-
-May 2022 - May 2023
-- Created flyers and infographics to promote healthy relationship practices on campus
 
 ## Involvement
 Tau Zeta Epsilon Society (Spring 2023 - present), Film Society (Spring 2022 - present), CS Club (Fall 2021 - present)
