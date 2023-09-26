@@ -3,7 +3,7 @@ layout: page
 title: Coding
 permalink: /Coding/
 ---
-Below you will find code snippets from my previous projects organized by language (Python, Java, and C#)!
+Below you will find code snippets from my previous projects organized by language (Python, Java, and C#)! If you visit my Github site [here](https://www.github.com/raesuarez/) you will find the repositories of some of the projects I have worked on.
 
 I also have experience working with Javascript, React, MATLAB, Windows CMD, Git, and Unity Game Engine. 
 
